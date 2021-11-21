@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between; align-items: center;
+  background-color: #141414;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px 5%;
+}
+header .title {
+  font-weight: 700;
+  font-size: 20px;
+}
+#newNoteButton {
+  display: flex;
+  justify-content: center; align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0 30px;
+  letter-spacing: 0.01em;
+  height: 50px; width: fit-content;
+  background-color: #202020; color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  transition: 0.2s;
+}
+#newNoteButton:hover {
+  background-color: #00ffee; color: #000000;
+  transition: 0.2s;
+}
+
